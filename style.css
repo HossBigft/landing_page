@@ -1,0 +1,144 @@
+
+.header,.hero{
+    background: #1f2937;
+    display: flex;
+}
+
+.header *,.header{
+    display: flex;
+    color: #f9faf8;
+    justify-content: space-between;
+    
+}
+.header{
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+}
+.header-links,.hero-text{
+    color: #e5e7eb;
+    font-size: 18px;
+    align-items: center;
+}
+.hero {
+    font-weight: extra-bold;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+.hero-content{
+    width: 500px;
+    flex-wrap: wrap;
+}
+p{
+    margin: 0;
+}
+button{
+    width: 130px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+ 
+    font-weight: bold;
+}
+img{
+    width: 500px;
+    flex-shrink: 0;
+}
+.hmain-text{
+    font-size: 48px;
+}
+.illustration{
+    color: #3882f6;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+.randomInfo{
+   display: flex; 
+   justify-content: space-between;
+   padding-left: 250px;
+   padding-right: 250px;
+   padding-top: 75px;
+   padding-bottom: 75px;
+
+}
+figure{
+    display: table;
+    text-align: center;
+    margin: 0;
+}
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
+.quoteBox{
+
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #e5e7eb;
+    font-size:36px;
+    font-weight:0;
+    font-style: italic;
+    color: #1f2937;
+}
+.inspiringQuote{
+    display: flex;
+    margin: 0;
+}
+cite{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+}
+.callToAction{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+}
+.blueRectangle{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+.buttonWhite{
+    border: e5e7eb;
+    border-style:  solid;
+    border-radius: 10px;
+}
+.callText p{
+    font-weight: bold;
+    color: #f9faf8;
+}
+.callText{
+    color: #f9faf8;
+}
